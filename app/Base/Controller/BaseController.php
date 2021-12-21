@@ -24,10 +24,7 @@ abstract class BaseController extends Controller
 
     public function create()
     {
-       return response()->json($this->service->create());
-       return response()->json($this->service->create());
-       return response()->json($this->service->create());
-       return response()->json($this->service->create());
+//        return response()->json($this->service->create());
     }
 
 
